@@ -1,9 +1,10 @@
 
 :root{
-    --primary-color: #9db5e9;
-    --secondary-color: #043558;
-    --tertiary-color: #333;
-    --quaternary-color: #f1f1f1;
+    --primary-color: #ececec;
+    --secondary-color: #333639;
+    --tertiary-color: #1d3458;
+    --quaternary-color: #171239;
+    --translucent-grey: rgba(68, 67, 67, 0.423);
     --border-radius: 10px;
 }
 
@@ -11,7 +12,7 @@ html,body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #f1f1f1;
+    background-color: var(--secondary-color);
     height: 100%;
     width: 100%;
 
@@ -24,7 +25,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--tertiary-color);
+    background-color: var(--translucent-grey);
     flex-direction: column;
     margin: 0;
     padding: 0;
@@ -39,6 +40,6 @@ html,body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: var(--quaternary-color);
+    background-color: var(--secondary-color);
     margin: 10px 0;
 }
